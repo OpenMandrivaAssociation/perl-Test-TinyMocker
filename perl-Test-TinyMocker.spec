@@ -1,15 +1,15 @@
 %define upstream_name    Test-TinyMocker
-%define upstream_version 0.03
+%define upstream_version 0.04
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	A very simple tool to mock external modules
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-TinyMocker-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
@@ -44,4 +44,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Feb 05 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.30.0-1
 + Revision: 636177
 - import perl-Test-TinyMocker
+
 
