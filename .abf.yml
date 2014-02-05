@@ -1,4 +1,5 @@
 removed_sources:
   Test-TinyMocker-0.03.tar.gz: 81530995189ceed18cef89bf213435ec58a34421
-sources:
   Test-TinyMocker-0.04.tar.gz: 3e8a195cc5a7b587f07f2be833a55c40b4ff9fb4
+sources:
+  Test-TinyMocker-0.05.tar.gz: 07628b18a2d59a84108eeccd4ff6a9e595e4ff9f

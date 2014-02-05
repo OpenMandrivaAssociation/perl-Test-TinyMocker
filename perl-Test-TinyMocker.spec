@@ -1,5 +1,5 @@
 %define upstream_name    Test-TinyMocker
-%define upstream_version 0.04
+%define upstream_version 0.05
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -44,5 +44,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Feb 05 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.30.0-1
 + Revision: 636177
 - import perl-Test-TinyMocker
+
 
 
