@@ -1,15 +1,13 @@
 %define upstream_name    Test-TinyMocker
-%define upstream_version 0.05
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	0.05
+Release:	5
 
 Summary:	A very simple tool to mock external modules
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/sukria/Test-TinyMocker/wiki
-Source0:	https://cpan.metacpan.org/authors/id/S/SU/SUKRIA/Test-TinyMocker-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SU/SUKRIA/Test-TinyMocker-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -20,7 +18,7 @@ BuildArch:	noarch
 no description found
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
